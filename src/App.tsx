@@ -3,7 +3,7 @@ import * as React from "react";
 import Product from "./product";
 import { AnimatePresence } from "framer-motion";
 import styled from "styled-components";
-import Buttons from "./sharedButtons";
+import Indicators from "./indicators";
 import Placeholder from "./placeholder";
 import { products } from "./data";
 
@@ -29,7 +29,7 @@ export default function App() {
             )
         )}
       </AnimatePresence>
-      <Buttons index={state} />
+      <Indicators index={state} />
     </Container>
   );
 }

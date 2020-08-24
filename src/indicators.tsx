@@ -2,7 +2,7 @@ import * as React from "react";
 import { AnimateSharedLayout, motion } from "framer-motion";
 import styled from "styled-components";
 
-export default function Buttons({ index }: { index: number }) {
+export default function Indicators({ index }: { index: number }) {
   return (
     <AnimateSharedLayout>
       <Ul>
